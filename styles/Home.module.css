@@ -184,11 +184,49 @@
   font-weight: 500;
 }
 
+.markdownanswer pre {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  overflow: auto;
+  padding: 1em;
+  white-space: pre-wrap;
+}
+
 .markdownanswer code {
-    background-color: #15151C;
-    padding: 10px;
-    border-radius: 5px;
-    overflow-x: auto;
+    
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-size: 0.8em;
+    font-family: 'Monaco', monospace
+}
+
+.markdown-code pre {
+    background-color: #2b2b2b;
+    color: white;
+    padding: 16px;
+    border-radius: 4px;
+    overflow: auto;
+}
+
+.markdown-code code {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 14px;
+}
+
+.markdown-code::-webkit-scrollbar {
+    width: 12px;
+}
+
+.markdown-code::-webkit-scrollbar-track {
+    background-color: #1c1c1c;
+}
+
+.markdown-code::-webkit-scrollbar-thumb {
+    background-color: #444444;
+    border-radius: 6px;
 }
 
 .markdownanswer ol, .markdownanswer ul {
